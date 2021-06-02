@@ -1,0 +1,7 @@
+---
+- hosts: localhost
+  gather_facts: yes
+  become: false
+  tasks:
+  - name: Running script
+    ansible.builtin.script: os.py
