@@ -1,4 +1,4 @@
 #!/usr/bin/python
 
 import platform
-print platform.linux_distribution()
+print(platform.linux_distribution());
